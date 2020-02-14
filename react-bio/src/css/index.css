@@ -51,3 +51,8 @@ nav {
     transition: all 0.3s ease-in-out;
 
 }
+.logo-link {
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
