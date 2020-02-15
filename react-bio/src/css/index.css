@@ -10,7 +10,7 @@ body {
         sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    background-color: rgb(238, 236, 236);
+    background-color:rgb(238, 236, 236);
 }
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -18,12 +18,12 @@ code {
 }
 
 .App {
-    background-color: black;
     color: rgb(238, 236, 236);
     max-width: 992px;
     margin: auto;
 }
 nav {
+    background-color: black;
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid grey;
@@ -55,4 +55,49 @@ nav {
     color: white;
     list-style: none;
     text-decoration: none;
+}
+.home-image {
+    width: 100%;
+    height: 500px;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/988/667/679/bow-elves-pointed-ears-night-elves-wallpaper-preview.jpg');
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.container {
+    width: 100%;
+    height: 100%;
+}
+.main-content {
+    width: 90%;
+    margin: auto;
+}
+.main-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: black;
+}
+.home-thumbnail-1,
+.home-thumbnail-2,
+.home-thumbnail-3{
+    background-size: cover;
+    width: 200px;
+    height: 250px;
+    border: solid rgb(118, 207, 200) 4px;
+    border-radius: .25rem;
+    margin: 5px;
+}
+.home-thumbnail-1 {
+    background-image: url("https://gamepedia.cursecdn.com/wowpedia/a/a4/Warden_artwork.jpg");
+}
+.home-thumbnail-2 {
+    background-image: url("https://www.iamag.co/wp-content/uploads/2018/07/warcraft-3-ca-3.jpg");
+}
+.home-thumbnail-3 {
+    background-image: url("https://vignette.wikia.nocookie.net/sgwarcraft/images/c/ce/Keeper_of_the_Grove.png/revision/latest/scale-to-width-down/340?cb=20131119200326");
+}
+.thumbnail-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    width: 100%;
 }
