@@ -9,6 +9,7 @@ const Home = (props) => (
             <div className="home-thumbnail-1"></div>
             <div className="home-thumbnail-2"></div>
             <div className="home-thumbnail-3"></div>
+            <div className="home-thumbnail-4"></div>
         </div>
         </div>
     </div>

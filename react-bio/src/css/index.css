@@ -59,9 +59,17 @@ nav {
 .home-image {
     width: 100%;
     height: 500px;
-    background-image: url('https://c4.wallpaperflare.com/wallpaper/988/667/679/bow-elves-pointed-ears-night-elves-wallpaper-preview.jpg');
+    background-image: url('https://wow.zamimg.com/uploads/screenshots/normal/875707.jpg');
     background-size: cover;
     margin-bottom: 30px;
+    transition: all 0.3s ease-in-out;
+}
+.home-image:hover {
+    background-image: url('https://wow.zamimg.com/uploads/screenshots/normal/875616.jpg');
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+    
 }
 .container {
     width: 100%;
@@ -78,22 +86,26 @@ nav {
 }
 .home-thumbnail-1,
 .home-thumbnail-2,
-.home-thumbnail-3{
+.home-thumbnail-3,
+.home-thumbnail-4 {
     background-size: cover;
-    width: 200px;
+    width: 300px;
     height: 250px;
-    border: solid rgb(118, 207, 200) 4px;
-    border-radius: .25rem;
     margin: 5px;
+    border: solid rgb(104, 212, 245) 4px;
+    border-radius: .25rem;
 }
 .home-thumbnail-1 {
-    background-image: url("https://gamepedia.cursecdn.com/wowpedia/a/a4/Warden_artwork.jpg");
+    background-image: url("https://i.pinimg.com/originals/60/0b/91/600b910c2b81bda23ff1cf2b3fe67e80.jpg");
 }
 .home-thumbnail-2 {
-    background-image: url("https://www.iamag.co/wp-content/uploads/2018/07/warcraft-3-ca-3.jpg");
+    background-image: url("https://i.pinimg.com/originals/ff/eb/2e/ffeb2e4681802f4dc2a06fd45c15117b.jpg");
 }
 .home-thumbnail-3 {
-    background-image: url("https://vignette.wikia.nocookie.net/sgwarcraft/images/c/ce/Keeper_of_the_Grove.png/revision/latest/scale-to-width-down/340?cb=20131119200326");
+    background-image: url("https://i.pinimg.com/736x/a4/55/84/a455849801351d1025c12fc8e894291a.jpg");
+}
+.home-thumbnail-4 {
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/013/143/066/large/blazan-alex-maiev-blaz-1.jpg?1538258091")
 }
 .thumbnail-container {
     display: flex;
