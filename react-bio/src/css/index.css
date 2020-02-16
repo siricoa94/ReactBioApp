@@ -44,6 +44,7 @@ nav {
     padding: 3px 8px;
     background-color:rgb(238, 236, 236);
     color: black;
+    font-weight: bold;
 }
 .nav-link:hover {
     border: 1px solid aquamarine;
@@ -132,9 +133,24 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     background-color: black;
+    border: 10px solid;
+    border-radius: .2rem;
+    border-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/dark-grunge-textures-4-780x520.jpg") 10% round;
 }
 .inner-hero-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.back {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid lightgrey;
+    padding: 3px 8px;
+    border-radius: 5px;
+    background-color: black;
+    color:rgb(238, 236, 236);;
+    text-decoration: none;
+    font-weight: bold;
 }
