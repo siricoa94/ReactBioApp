@@ -15,7 +15,7 @@ class App extends Component {
         <div className="App">
           <Navbar title="Andrew Sirico"></Navbar>
           <Route exact path="/" render={() => <Home title="Mirana's Guide to Warcraft 3"/>}/>
-          <Route exact path="/hero" render={() => <Hero/>}/>
+          <Route exact path="/hero" render={() => <Hero title="Hero Guide"/>}/>
           <Route exact path="/race" render={() => <Race/>}/>
           <Route exact path="/strategy" render={() => <Strategy/>}/>
         </div>

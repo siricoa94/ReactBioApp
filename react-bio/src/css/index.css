@@ -121,3 +121,20 @@ nav {
     margin-bottom: 50px;
     width: 100%;
 }
+.hero-container {
+    display: inline-block;
+    text-align: center;
+}
+.hero-image {
+    width: 250px;
+    height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+}
+.inner-hero-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
