@@ -18,7 +18,7 @@ code {
 }
 
 .App {
-    color: rgb(238, 236, 236);
+    background-color: rgb(238, 236, 236);
     max-width: 992px;
     margin: auto;
 }
@@ -94,6 +94,14 @@ nav {
     margin: 5px;
     border: solid rgb(104, 212, 245) 4px;
     border-radius: .25rem;
+}
+.home-thumbnail-1:hover,
+.home-thumbnail-2:hover,
+.home-thumbnail-3:hover,
+.home-thumbnail-4:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .home-thumbnail-1 {
     background-image: url("https://i.pinimg.com/originals/60/0b/91/600b910c2b81bda23ff1cf2b3fe67e80.jpg");
