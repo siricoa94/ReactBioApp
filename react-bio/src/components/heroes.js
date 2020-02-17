@@ -2,7 +2,7 @@ import React from 'react';
 import {HeroesList} from '../data/hero';
 import {Link} from 'react-router-dom';
 
-const Hero = (props) => {
+const Heroes = (props) => {
     let Heroes = HeroesList.map((person) => {
         return (
             <div className="hero-container">
@@ -24,4 +24,4 @@ const Hero = (props) => {
     );
 };
 
-export default Hero;
+export default Heroes;

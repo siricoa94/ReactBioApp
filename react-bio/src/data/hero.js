@@ -2,6 +2,8 @@ export const HeroesList = [
     {
         name: "Paladin",
         img_src: "https://dmitrychernikov.com/images/paladin.jpg",
+        description: "ss",
+        url: "Paladin",
     },
     {
         name: "Archmage",
