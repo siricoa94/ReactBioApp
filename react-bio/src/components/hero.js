@@ -6,7 +6,7 @@ const Hero = (props) => {
         <div className="main-content">
             <div><Link className="back" to="/">Back</Link></div>
             <h2>{props.name}</h2>
-            <div className="inner-hero-container">
+            <div className="container">
                 <div className="image-profile">
                    <h2>asas</h2>
                    <p>asas</p> 

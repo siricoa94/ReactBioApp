@@ -59,7 +59,7 @@ export const HeroesList = [
     },
     {
         name: "Demon Hunter",
-        img_src: "https://lh3.googleusercontent.com/proxy/o-JZv0YwpRx8-MONJdAgeRlm38jYQY0oGLMGmMNoNAI0XtWkwn-_Y4kmXgo6xqnYdFlV3iJNBQbDh8KXsu4dRvQeS1SHJdd-1aeWYb5SaY1PhTrMZYc-",
+        img_src: "https://lh3.googleusercontent.com/proxy/QWee49wgKw85G2g861mvnw7SzBMPv5coQIZjnVSW_Ko65ksONx15JNgH3S9HyCRE_HQm-Mq4deDOSygxwKmSTG8fx4v7RWpcYnzaBTTJ98HxKvbKjBX1",
     },
     {
         name: "Warden",
