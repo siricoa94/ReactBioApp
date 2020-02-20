@@ -6,9 +6,9 @@ const Heroes = (props) => {
     let Heroes = HeroesList.map((person) => {
         return (
             <div className="hero-container">
-                <a>
+                <Link to={`/hero/${person.url}`}>
                     <div className="hero-image" style={{backgroundImage: "url("+ person.img_src +")"}}></div>
-                </a>
+                </Link>
                 <h3>{person.name}</h3>
             </div>
         );

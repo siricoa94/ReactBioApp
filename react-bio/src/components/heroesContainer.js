@@ -7,7 +7,7 @@ import {HeroesList} from '../data/hero';
 const HeroContainer = (props) => {
     let heroUrl = HeroesList.map((hero) => {
         return (
-            <Route path={`/hero/${hero.url}`} render={() => <Hero />} />
+            <Route path={`/hero/${hero.url}`} render={() => <Hero title="Hero Guide" info={hero.info} name={hero.name} gif={hero.gif}/>} />
         );
     });
     return (

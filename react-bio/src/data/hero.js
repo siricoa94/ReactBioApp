@@ -2,13 +2,16 @@ export const HeroesList = [
     {
         name: "Paladin",
         img_src: "https://dmitrychernikov.com/images/paladin.jpg",
-        description: "ss",
+        info: "The Paladin is classified as a defender of the light. Primarily a support hero, the Paladin is best utilized to heal and support other units. The Paladin is a melee unit with the spells Holy Light, Devotion Aura, Divine Shield, and Ressurection. Holy light is a single target heal that can not be casted upon yourself. Devotion Aura is an area of effect buff that increases the armor of allied forces within a certain range. Divine Shield temporarily provides the Paladin with immortality, blocking all incoming damage and spells. Ressurection is the Paladins ultimate ability, at level 6 you are able to bring back to life up to 6 ground based allied units nearby. A few tips for picking a Paladin, never pick a Paladin first unless you are playing against an Undead player and even then there are still better options. Furthermore, do not skill Divine Shield and Devotion Aura together, pick one to scale with Holy Light as it is the Paladins most useful ability.",
         url: "Paladin",
+        gif:"http://classic.battle.net/war3/images/human/units/animations/paladin.gif",
     },
     {
         name: "Archmage",
         img_src: "https://pbs.twimg.com/media/D6Y0YO1UcAArFMb.jpg:large",
+        info: "Archmage is most likely the best hero to choose first for Humans. The Archmage is a ranged spell casting hero that is physically weak. The Archmages abilites are Blizzard, Summon Water Elemental, Brilliance Aura, and Mass Teleportation. Blizzard is an area of effect spell that hurls icy bolts from the sky in waves dealing damage and slowing enemies. Summon Water Elemental raises a watery minion to fight along side the Archmage for a duration of time. Brilliance Aura is another area of effect spell that offers bonus mana regeneration to all nearby allied forces. Mass Teleportation is the Archmages ultimate ability, allowing the Archmage to teleport up to 24 of the players nearby units to a friendly ground unit or structure.Archmage is one of the only heroes who can be used to take a fast expansion by using the footmen's Milita ability. Furthermore, when playing Archmage it is best to either level Summon Water Elemental or Blizzard with Brilliance Aura as the mana regeneration will allow you to keep casting.",
         url: "Archmage",
+        gif:"http://classic.battle.net/war3/images/human/units/animations/archmage.gif",
     },
     {
         name: "Mountain King",
