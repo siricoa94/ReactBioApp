@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 const Hero = (props) => {
     return (
         <div className="main-content">
-            <div><Link className="back" to="/">Back</Link></div>
+            <div><Link className="back" to="/hero">Back</Link></div>
             <h2>{props.title}</h2>
             <div className="container">
                 <div className="image-profile">
