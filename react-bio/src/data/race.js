@@ -4,7 +4,7 @@ export const RaceList = [
         url:"Human",
         gif:"http://classic.battle.net/war3/images/human/heroes/humans-groupphoto2.jpg",
         img_src: "http://classic.battle.net/war3/images/human/humanseal.gif",
-        info: "Human is a versatile and industrious race. Peasants have the ability to speed build structures together, something other races can not do. Humans also have a very diverse army, ranging from heavy calvary and flying units to casters, and even siege units. Furthermore, Humans also have three different tower types, a unique quality shared with Undead. Humans have a very high skill ceiling which takes years of mastery.",
+        info: "Human is a versatile and industrious race. Peasants have the ability to speed build structures together, something other races can not do. Humans also have a very diverse army, ranging from heavy calvary and flying units to casters, and even siege units. Furthermore, Humans also have three different tower types, a unique quality shared with Undead which only has two. Humans have a very high skill ceiling which takes years of mastery.",
     },
     {
         name: "Orc",
@@ -18,7 +18,7 @@ export const RaceList = [
         url:"Undead",
         gif: "http://classic.battle.net/war3/images/undead/heroes/undead-groupphoto2.jpg",
         img_src: "http://classic.battle.net/war3/images/undead/undeadseal.gif",
-        info: 'Undead is the most user friendly race in my opinion. To begin, buildings build themselves and the mine has a specific ammount of slots as to let the player know when maximum capacity has been reached. Also, Undeads lumber gatherer is also its tier one melee unit, useful to defend against an early harass. Furthermore, Undeads food producing structure can also be used as a tower, good for defensive purposes. As far as army composition, undead has very strong units and has the best heroes to "nuke" Other players with.'
+        info: 'Undead is the most user friendly race in my opinion. To begin, buildings build themselves and the mine has a specific ammount of slots as to let the player know when maximum capacity has been reached. Also, Undeads lumber gatherer is also its tier one melee unit, useful to defend against an early harass. Furthermore, Undeads food producing structure can also be used as a tower, good for defensive purposes. Another point to make about Undead towers is that they have two types, one that does light damage and slows a units movement speed, and one that just does damage. As far as army composition, undead has very strong units and has the best heroes to "nuke" Other players with.'
     },
     {
         name: "Night Elf",

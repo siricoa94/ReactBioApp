@@ -9,8 +9,8 @@ const Races = (props) => {
             <div className="container">
                 <div className="image-profile">
                 <h2>{props.name}</h2>
-                <div className="hero-image" style={{backgroundImage: "url("+ props.gif +")"}}></div>
-                <p>{props.info}</p> 
+                <div className="race-hero-image" style={{backgroundImage: "url("+ props.gif +")"}}></div>
+                <p className="race-basic-info">{props.info}</p> 
                 </div>
             </div>
         </div>
