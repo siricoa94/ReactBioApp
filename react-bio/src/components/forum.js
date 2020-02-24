@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Strategy = () => (
+const Forum = () => (
     <div>
         <div>
-        Strategy
+        forum
         </div>
     </div>
 );
 
-export default Strategy;
+export default Forum;

@@ -9,7 +9,7 @@ const Heroes = (props) => {
                 <Link to={`/hero/${person.url}`}>
                     <div className="hero-image" style={{backgroundImage: "url("+ person.img_src +")"}}></div>
                 </Link>
-                <h3>{person.name}</h3>
+                <h4>{person.name}</h4>
             </div>
         );
     });

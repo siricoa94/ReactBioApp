@@ -8,7 +8,7 @@ const Hero = (props) => {
             <h2>{props.title}</h2>
             <div className="container">
                 <div className="image-profile">
-                <h2 className>{props.name}</h2>
+                <h3 className>{props.name}</h3>
                 <div className="hero-image-gif" style={{backgroundImage: "url("+ props.gif +")"}}></div>
                 <p className="hero-basic-info">{props.info}</p> 
                 </div>

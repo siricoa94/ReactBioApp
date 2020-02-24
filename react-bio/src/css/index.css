@@ -30,6 +30,9 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 10px 20px;
+    font-family: 'Cinzel';
+    border-bottom-left-radius: .25rem;
+    border-bottom-right-radius: .25rem;
 }
 
 .nav-menu li {
@@ -88,7 +91,23 @@ nav {
     font-size: 50px;
     text-align: center;
     margin-bottom: 20px;
-    color:rgba(129, 124, 124, 0.849);
+    color:rgba(175, 175, 175, 0.849);
+    text-shadow: 3px 3px rgb(0, 0, 0); 
+}
+.main-content h3 {
+    font-family: 'Cinzel';
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgba(175, 175, 175, 0.849);
+    text-shadow: 3px 3px rgb(0, 0, 0); 
+}
+.main-content h4 {
+    font-family: 'Cinzel';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    color:rgba(175, 175, 175, 0.849);
     text-shadow: 3px 3px rgb(0, 0, 0); 
 }
 .home-thumbnail-1,
@@ -165,10 +184,8 @@ nav {
     padding: 5px;
     text-align: justify;
     font-family: 'Cinzel';
-    background-image: url("https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-    border: 10px solid;
-    border-radius: .2rem;
-    border-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/dark-grunge-textures-4-780x520.jpg") 10% round;
+    color:rgba(175, 175, 175, 0.849);
+    text-shadow: 2px 2px rgb(0, 0, 0);
     margin: 20px;
 }
 .hero-image:hover{
@@ -181,7 +198,7 @@ nav {
     justify-content: space-around;
     flex-wrap: wrap;
     font-family: 'Cinzel';
-    color:rgba(129, 124, 124, 0.849);
+    color:rgba(175, 175, 175, 0.849);
     text-shadow: 2px 2px rgb(0, 0, 0);
 }
 
@@ -195,6 +212,7 @@ nav {
     color:rgb(238, 236, 236);
     text-decoration: none;
     font-weight: bold;
+    font-family: 'Cinzel';
 }
 /* RACE CSS BELOW =V=V=V=V= RACE CSS BELOW =V=V=V=V= RACE CSS BELOW =V=V=V=V= RACE CSS BELOW =V=V=V=V= */
 .race-hero-image {
@@ -213,6 +231,26 @@ nav {
 }
 .race-basic-info {
     padding-top: 20px;
+    padding-bottom: 20px;
     text-align: justify;
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Cinzel';
+    color:rgba(175, 175, 175, 0.849);
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.race-tier-building-image {
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid;
+    border-radius: .2rem;
+    border-image: url("https://storage.googleapis.com/webdesignledger.pub.network/LaT/edd/2016/02/dark-grunge-textures-4-780x520.jpg") 10% round;
 }

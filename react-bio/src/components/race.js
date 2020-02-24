@@ -8,9 +8,12 @@ const Races = (props) => {
             <h2>{props.title}</h2>
             <div className="container">
                 <div className="image-profile">
-                <h2>{props.name}</h2>
+                <h3>{props.name}</h3>
                 <div className="race-hero-image" style={{backgroundImage: "url("+ props.gif +")"}}></div>
-                <p className="race-basic-info">{props.info}</p> 
+                <p className="race-basic-info">{props.info}</p>
+                <h3 className="race-tier-building-title">{props.building_title}</h3> 
+                <div className="race-tier-building-image" style={{backgroundImage: "url("+ props.tech_img +")"}}></div>
+                <p className="race-basic-info">{props.building_info}</p>
                 </div>
             </div>
         </div>
