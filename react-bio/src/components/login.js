@@ -1,15 +1,29 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
 import firebaseInit from '../config/firebaseConfig';
 
 class Login extends Component {
     constructor(props) {
         super(props);
+        // this.login.bind(this);
+        // this.handleChange = this.handleChange.bind(this);
         this.state = {
             email: '',
             password: ''
-        }
-    }
+        };
+    };
+
+    login(e) {
+        e.preventDefault();
+        firebaseInit.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u) => {
+        }).catch((error) => {
+            console.log(error);
+        });
+    };
+
+    heandleChange(e) {
+        this.setState ({ [e.target.name]: e.target.value})
+    };
 
 
 
@@ -25,7 +39,7 @@ class Login extends Component {
                     </div>
                     <div>
                         <label></label>
-                        <input value={this.state.password} onChange={this.handleChange} type="password" name="password" placeholder="password"></input>
+                        <input vaue={this.state.password} onChange={this.handleChange} type="password" name="password" placeholder="Enter Password Please"></input>
                     </div>
                     <button type="submit" onClick={this.login}>Login</button>
                     <button onClick={this.signup}>Sign Up</button>

@@ -15,10 +15,10 @@ class App extends Component {
       <BrowserRouter>
         <div className="App">
           <Navbar title="Andrew Sirico"></Navbar>
-          <Route exact path="/" render={() => <Auth title="Mirana's Guide to Warcraft 3"/>}/>
+          <Route exact path="/" render={() => <Home title="Mirana's Guide to Warcraft 3"/>}/>
           <Route path="/hero" render={() => <HeroContainer title="Hero Guide"/>}/>
           <Route path="/race" render={() => <RaceContainer title="Warcraft Races"/>}/>
-          <Route path="/forum" render={() => <Forum/>}/> 
+          <Route path="/forum" render={() => <Auth/>}/> 
         </div>
       </BrowserRouter>
     );
