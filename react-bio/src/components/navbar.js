@@ -6,7 +6,7 @@ const Navbar = (props) => (
         <h2 className="logo">
             <a className="logo-link" href="">{props.title}</a>
         </h2>
-        <ul class="nav-menu">
+        <ul className="nav-menu">
             <li><NavLink className="nav-link" exact to="/">Home</NavLink></li>
             <li><NavLink className="nav-link" to="/race">Races</NavLink></li>
             <li><NavLink className="nav-link" to="/hero">Heroes</NavLink></li>
