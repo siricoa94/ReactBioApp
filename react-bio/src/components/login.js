@@ -4,6 +4,7 @@ import firebaseInit from '../config/firebaseConfig';
 
 class Login extends Component {
     constructor(props) {
+        
         super(props);
         this.state = {
             email: '',
@@ -14,6 +15,7 @@ class Login extends Component {
     login = e => {
         e.preventDefault();
         firebaseInit.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u) => {
+            console.log("You are logged in");
         }).catch((error) => {
             console.log(error);
             console.log("hello andrew:" + this.state);
@@ -22,9 +24,7 @@ class Login extends Component {
         });
     };
 
-    heandleChange(e) {
-        this.setState ({ [e.target.name]: e.target.value})
-    };
+    onChange = e => this.setState({ [e.target.name]: e.target.value });
 
     render () {
         return (
@@ -32,12 +32,12 @@ class Login extends Component {
                 <form>
                     <div>
                         <label></label>
-                        <input value={this.state.email} onChange={this.handleChange} type="email" name="email" aria-describedby="emailHelp" placeholder="Enter Email Please"></input>
+                        <input onChange={this.onChange} value={this.state.email} type="email" name="email" aria-describedby="emailHelp" placeholder="Enter Email Please"></input>
                         <small id="emailHelp">We Might Share your email with someone, just kidding :D</small>
                     </div>
                     <div>
                         <label></label>
-                        <input value={this.state.password} onChange={this.handleChange} type="password" name="password" placeholder="Enter Password Please"></input>
+                        <input onChange={this.onChange} value={this.state.password} type="password" name="password" placeholder="Enter Password Please"></input>
                     </div>
                     <button type="submit" onClick={this.login}>Login</button>
                     <button onClick={this.signup}>Sign Up</button>

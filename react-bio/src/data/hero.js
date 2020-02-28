@@ -99,7 +99,7 @@ export const HeroesList = [
     },
     {
         name: "Demon Hunter",
-        img_src: "https://lh3.googleusercontent.com/proxy/FJsvid2te0K2nEyxwOGZvTBpxZLGMfhYr6KK_Owl30X1UcY6kLV4rNVHN99QK2K-Ot7tnPapf2MEajMY6VGXfXyjAQCkErS007Xlox7jjYAkCdKjWJUk",
+        img_src: "https://lh3.googleusercontent.com/proxy/6xJPbRth-U41uBoHsJBAw0AzZua99YyeHg1EgM94xPfiLd4px9XSvkQk_TqXiBexHxQaVEYbXQSgLBl-aEqFis1w44HkgveOO4FHBhIqK7M9gxnuoMEB",
         url:"Demonhunter",
         gif:"http://classic.battle.net/war3/images/nightelf/units/animations/demonhunter.gif",
         info:"The coolest looking hero in the game is he not? The Demon Hunter is a melee hero and is definitely the cool guy of the night elf race. His abilities are Mana Burn, Immolation, Evasion, and Metamorphosis is his ultimate ability. Mana Burn is most quoted as Demon Hunters best ability, being a single target ranged spell that does burst damage and drains the enemy of mana on impact. Immolation coats the Demon Hunter in flames, causing damage to all units near him as long as it is active. Evasion gives the Demon Hunter a chance to dodge attacks, pretty simple. Metamorphosis, the Demon Hunters ultimate grants him bonus health, damage, and the ability to attack from a range with chaos damage. When playing the Demon Hunter it is best to level up Mana Burn as it is good to use for disabling enemy heroes from casting spells. Immolation is often seen as a sub-par skill but it definitely has its uses, especially for harassing worker units like peasants or peons. Furthermore, Demon Hunters Metamorphosis is overpowered and in general there is no solid counter to it besides to run from him. The Demon Hunter is a great first pick when playing against an enemy who might harass early with summons.",
